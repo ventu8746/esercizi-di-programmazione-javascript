@@ -14,13 +14,14 @@
 */
 
 
-var gatti = 56
+var gatti = 80
 
 var gattiperfila = 6
 
-var numerofilerisultanti = Math.ceil(gatti\gattiperfila);
+var numerofilerisultanti = Math.ceil(gatti/gattiperfila);
 
 var gattimancanti = (numerofilerisultanti*gattiperfila-gatti);
 
 console.log(numerofilerisultanti);
 console.log(gattimancanti);
+console.log(`${gatti} gatti in fila per ${gattiperfila} si unirono compatti in ${numerofilerisultanti} file. Nell'ultima fila rimasero ${gattimancanti} posti gatto disponibili.`);

@@ -20,7 +20,7 @@ var gattiperfila = 6
 
 var numerofilerisultanti = Math.ceil(gatti/gattiperfila);
 
-var gattimancanti = (numerofilerisultanti*gattiperfila-gatti);
+var gattimancanti = (numerofilerisultanti*gattiperfila)-gatti);
 
 console.log(numerofilerisultanti);
 console.log(gattimancanti);

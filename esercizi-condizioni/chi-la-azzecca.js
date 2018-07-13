@@ -7,7 +7,7 @@
 */
 var intRandom = Math.floor(Math.random() * 100) + 1;
 
-var intGamer1 = 5;
+var intGamer1 = 8;
 
 var intGamer2 = 88;
 

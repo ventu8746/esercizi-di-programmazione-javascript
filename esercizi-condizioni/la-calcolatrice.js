@@ -29,7 +29,7 @@ switch (stringLe){
   break;
   case 9:console.log(`ìl risultato della divisione è ${intNum1/intNum2}`);
   break;
-  case 6:console.log(`ìl risultato della percentuale è ${intNum1%intNum2}`);
+  case 6:console.log(`ìl risultato del modulo è ${intNum1%intNum2}`);
   break;
   case 7:console.log(`ìl risultato della potenza è ${Math.pow(intNum1,intNum2)}`);
   break;
